@@ -17,13 +17,13 @@ public class Celsius extends Temperature {
 
     @Override
     public Temperature toFahrenheit() {
-        return new Fahrenheit(this.value * 9/4 + 32);
+        return new Fahrenheit(this.value * 9/5 + 32);
     }
 
 
     public String toString()
         {
             // TODO: Complete this method
-            return this.value + "C";
+            return this.value + " C";
         }
 }
